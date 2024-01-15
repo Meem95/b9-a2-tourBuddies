@@ -75,7 +75,7 @@ main{
    
     width: 1170px;
     height: 500px;
-    background:linear-gradient( rgba(0,0.2,0.1,3), rgba(0, 0, 0, .3), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.3)), 
+    background-image:linear-gradient( rgba(0,0.2,0.1,3), rgba(0, 0, 0, .3), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.3)), 
     url('../images/banner.png');
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -154,9 +154,80 @@ main{
     height: 550px;
 }
 
+/************Destination style********************/ 
+.destination-content{
+    
+    text-align: center;
+    width: 56%;
+    margin:0 auto;
+    margin-top: 45px;
+}
+.destination-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 5px;
+}
+.destination-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.destination-img {
+    display: flex;
+    margin-bottom: 13px;
+    gap: 15px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.destination .centered {
+    position: absolute;
+    margin-top: 11%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+  }
+.destination .centered-two {
+    position: absolute;
+    margin-top: 11%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+.destination .centered-three {
+    position: absolute;
+    margin-top: 9%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+.destination .centered-four {
+    position: absolute;
+    margin-top: 9%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .destination .centered-five {
+      position: absolute;
+      margin-top: 9%;
+      left: 78%;
+      transform: translate(-50%, -50%);
+    }
+  .destination .centered-six {
+      position: absolute;
+      margin-top: 9%;
+      left: 27%;
+      transform: translate(-50%, -50%);
+    }
+  .destination .centered-seven {
+      position: absolute;
+      margin-top: 9%;
+      left: 66%;
+      transform: translate(-50%, -50%);
+    }
 
 
 
+/********************************/ 
 /********************************/ 
 
 
@@ -213,6 +284,7 @@ main{
         max-width: 290px;
        
     }
+    /*************Popular style*****************/
     .popular-tour-container{
         flex-direction: column;
         justify-content:center;
@@ -233,5 +305,54 @@ main{
         width:370px;
         height: 342px;
     }
-    
+    /***************Destination style************************/
+    .destination-content{
+        width: 80%;
+    }
+    .destination-content h2{
+       
+        font-size:25px;
+    }
+    .destination-img{
+        flex-direction: column;
+    }
+    .destination .centered {
+        margin-top: 27%;
+        left: 46%;
+      }
+    .destination .centered-two {
+        margin-top: 80%;
+        left: 46%;
+      }
+    .destination .centered-three {
+        position: absolute;
+        margin-top: 40%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+      }
+    .destination .centered-four {
+        position: absolute;
+        margin-top: 103%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .destination .centered-five {
+          position: absolute;
+          margin-top: 190%;
+          left: 48%;
+          transform: translate(-50%, -50%);
+        }
+      .destination .centered-six {
+          position: absolute;
+          margin-top: 31%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      .destination .centered-seven {
+          position: absolute;
+          margin-top: 91%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
 }
