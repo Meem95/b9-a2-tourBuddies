@@ -227,7 +227,52 @@ main{
 
 
 
-/********************************/ 
+/***************why-choose-us Style*****************/
+.why-choose-us-content{
+    text-align: center;
+    width: 56%;
+    margin:0 auto;
+    margin-top: 45px;
+} 
+.why-choose-us-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+.why-choose-us-card-row-one{
+    display:flex;
+}
+.why-choose-us-card-row-one{
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.why-choose-us-card-row-two{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+ .card-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    max-width: 573px;
+    height: 240px;
+    padding: 30px;
+}
+ .card-two{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    max-width: 573px;
+    height: 240px;
+    padding: 30px;
+}
 /********************************/ 
 
 
@@ -325,34 +370,50 @@ main{
         left: 46%;
       }
     .destination .centered-three {
-        position: absolute;
         margin-top: 40%;
         left: 46%;
-        transform: translate(-50%, -50%);
       }
     .destination .centered-four {
-        position: absolute;
         margin-top: 103%;
-        left: 46%;
-        transform: translate(-50%, -50%);
+        left: 51%;
       }
       
       .destination .centered-five {
-          position: absolute;
           margin-top: 190%;
           left: 48%;
-          transform: translate(-50%, -50%);
         }
       .destination .centered-six {
-          position: absolute;
           margin-top: 31%;
           left: 50%;
-          transform: translate(-50%, -50%);
         }
       .destination .centered-seven {
-          position: absolute;
           margin-top: 91%;
           left: 50%;
-          transform: translate(-50%, -50%);
+        }
+        /**********************Why choose us style**************************/
+        .why-choose-us-content {
+            width: 80%;
+            
+        }
+        .why-choose-us-card-row-one{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .why-choose-us-card-row-two{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .card-one{
+            max-width: 400px;
+            height: 289px;
+            padding: 10px;
+        }
+         .card-two{
+            max-width: 400px;
+            padding: 10px;
+            height: 289px;
         }
 }
