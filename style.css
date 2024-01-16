@@ -136,6 +136,12 @@ main{
     width: 45%;
    
 }
+.popular-tour-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+   
+}
 .popular-tour-content p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -300,6 +306,52 @@ main{
 .card-one img  , .card-two img{
     margin: 10px;
 }
+/*************Perfect-place style*******************/
+
+.perfect-place-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+.perfect-place-content {
+    width: 45%;
+   
+}
+.perfect-place-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+   
+}
+.perfect-place-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 18px;
+   
+}
+.perfect-place-content ul{
+  
+    margin-left: 25px;
+   
+}
+.perfect-place-content ul> li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 18px;
+   
+}
+.perfect-place-content {
+    width: 45%;
+   
+}
+.perfect-place-img iframe {
+    max-width: 540px;
+    height: 550px;
+}
+
 /************News Latter Style********************/ 
 .newsletter-container{
     display: flex;
@@ -469,7 +521,7 @@ main{
         /* width: 505px; */
     }
     .popular-tour-img img {
-        width:370px;
+        width:330px;
         height: 342px;
     }
     /***************Destination style************************/
@@ -539,6 +591,27 @@ main{
             height: 289px;
         }
 
+         /*************Perfect-place*****************/
+            .perfect-place-container{
+                flex-direction: column;
+                justify-content:center;
+            }
+            .perfect-place-content {
+                
+                text-align: left;
+                margin: 0 auto;
+                width: 370px;
+            }
+            .perfect-place-img  {
+            
+                margin: 0 auto;
+                margin-top: 20px;
+                /* width: 505px; */
+            }
+            .perfect-place-img iframe {
+                width:330px;
+                height: 342px;
+            }
         /***************NewsLetter Style********************/
         .newsletter-container{
         
