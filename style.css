@@ -306,6 +306,7 @@ main{
 .card-one img  , .card-two img{
     margin: 10px;
 }
+
 /*************Perfect-place style*******************/
 
 .perfect-place-container{
@@ -377,6 +378,7 @@ main{
     justify-content: space-evenly;
     gap: 15px;
     padding: 15px;
+    
 }
 .latest-tour-card-body{
     display: flex;
@@ -384,8 +386,6 @@ main{
     height: 240px;
     border-radius: 10px;    
     max-width: 570px;
-    /* overflow: hidden; */
-  
 }
 .latest-tour-card-body-content{
     margin: 10px;
@@ -509,7 +509,7 @@ main{
 
 
 
-/***********Responsive for mobile view***********/
+/***********Responsive for mobile view start***********/
 @media only screen and (max-width:600px) {
 
     /***********nav style******/
@@ -777,4 +777,5 @@ main{
         .footer-content hr{
             width: 100%;
         }
+        /***********Responsive for mobile view end***********/
 }
