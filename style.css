@@ -349,7 +349,7 @@ main{
 }
 .perfect-place-img iframe {
     max-width: 540px;
-    height: 550px;
+    /* height: 550px; */
 }
 /**********************Latest news**********************/
 .latest-tour-container{ 
@@ -666,7 +666,6 @@ main{
             
                 margin: 0 auto;
                 margin-top: 20px;
-                /* width: 505px; */
             }
             .perfect-place-img iframe {
                 width:330px;
