@@ -634,9 +634,9 @@ main{
           left: 50%;
         }
         /**********************Why choose us style**************************/
-        .why-choose-us{
+        /* .why-choose-us{
             display: none;
-        }
+        } */
         .why-choose-us-content {
             width: 90%;
             
@@ -647,18 +647,19 @@ main{
             align-items: center;
         }
         .why-choose-us-card-row-two{
-            display: grid;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
         }
         .card-one{
-            max-width: 400px;
+            max-width: 90%;
             height: 289px;
             padding: 10px;
         }
          .card-two{
-            max-width: 400px;
+            max-width: 90%;
             padding: 10px;
             height: 289px;
         }
