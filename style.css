@@ -561,6 +561,9 @@ main{
        
     }
     /*************Popular style*****************/
+    .popular-tour{
+        display: none;
+    }
     .popular-tour-container{
         flex-direction: column;
         justify-content:center;
