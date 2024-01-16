@@ -582,8 +582,12 @@ main{
         height: 342px;
     }
     /***************Destination style************************/
+    .destination{
+        display: none;
+    }
     .destination-content{
         width: 90%;
+        margin: 0 auto;
     }
     .destination-content h2{
        
