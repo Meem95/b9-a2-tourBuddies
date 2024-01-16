@@ -532,7 +532,10 @@ main{
         font-weight: 800;
         margin: 5px;
     }
-
+    .navbar{
+        
+        justify-content: space-around;
+    }
     /*****************Banner Style*********************/
     .banner .banner-img  {
         width: 100%;
@@ -566,19 +569,20 @@ main{
     }
     .popular-tour-container{
         flex-direction: column;
-        justify-content:center;
+        justify-content:flex-start;
+        /* width: 370px; */
     }
     .popular-tour-content {
         
         text-align: left;
-        margin: 0 auto;
-        width: 370px;
+        /* margin: 0 auto; */
+        /* max-width: 370px; */
+        width: 90%;
     }
     .popular-tour-img  {
       
         margin: 0 auto;
         margin-top: 20px;
-        /* width: 505px; */
     }
     .popular-tour-img img {
         width:330px;
