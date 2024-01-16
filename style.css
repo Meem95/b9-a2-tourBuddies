@@ -623,8 +623,11 @@ main{
           left: 50%;
         }
         /**********************Why choose us style**************************/
+        .why-choose-us{
+            display: none;
+        }
         .why-choose-us-content {
-            width: 80%;
+            width: 90%;
             
         }
         .why-choose-us-card-row-one{
