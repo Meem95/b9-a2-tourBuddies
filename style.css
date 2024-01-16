@@ -584,12 +584,8 @@ main{
         height: 342px;
     }
     /***************Destination style************************/
-    /* .destination{
-        display: none;
-    } */
     .destination-content{
         width: 90%;
-        /* margin: 0 auto; */
     }
     .destination-content h2{
        
@@ -634,9 +630,6 @@ main{
           left: 50%;
         }
         /**********************Why choose us style**************************/
-        /* .why-choose-us{
-            display: none;
-        } */
         .why-choose-us-content {
             width: 90%;
             
@@ -649,9 +642,7 @@ main{
         .why-choose-us-card-row-two{
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            margin-bottom: 20px;
         }
         .card-one{
             max-width: 90%;
@@ -685,9 +676,9 @@ main{
                 height: 342px;
             }
             /*********************Latest Tour Style**********************************/
-            .latest-tour{
+            /* .latest-tour{
                 display: none;
-            }
+            } */
             .latest-tour-content{
                 width: 100%;
               
@@ -695,9 +686,11 @@ main{
             .latest-tour-card{
                 /* display: grid; */
                 flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
                 gap: 10px;
-                padding: 20px;
-                width: 100%;
+                /* padding: 20px; */
+                /* width: 100%; */
             }
             .latest-tour-card-body{
                 display: grid;
