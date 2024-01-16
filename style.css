@@ -564,19 +564,14 @@ main{
        
     }
     /*************Popular style*****************/
-    .popular-tour{
-        /* display: none; */
-    }
+    
     .popular-tour-container{
         flex-direction: column;
         justify-content:flex-start;
-        /* width: 370px; */
     }
     .popular-tour-content {
         
         text-align: left;
-        /* margin: 0 auto; */
-        /* max-width: 370px; */
         width: 90%;
     }
     .popular-tour-img  {
@@ -589,12 +584,12 @@ main{
         height: 342px;
     }
     /***************Destination style************************/
-    .destination{
+    /* .destination{
         display: none;
-    }
+    } */
     .destination-content{
         width: 90%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
     .destination-content h2{
        
@@ -602,7 +597,12 @@ main{
     }
     .destination-img{
         flex-direction: column;
-        width: 80%;
+        align-items: center; 
+        width: 100%;
+    }
+    .destination-img img{
+        width: 100%;
+        height: 100%;
     }
     .destination .centered {
         margin-top: 27%;
@@ -630,7 +630,7 @@ main{
           left: 50%;
         }
       .destination .centered-seven {
-          margin-top: 91%;
+          margin-top: 80%;
           left: 50%;
         }
         /**********************Why choose us style**************************/
