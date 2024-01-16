@@ -562,7 +562,7 @@ main{
     }
     /*************Popular style*****************/
     .popular-tour{
-        display: none;
+        /* display: none; */
     }
     .popular-tour-container{
         flex-direction: column;
@@ -746,9 +746,9 @@ main{
             font-weight: 800;
         }
         .newsletter-offer{
-            max-width:  50%;
+            max-width:  40%;
             height: 80px;
-            transform:scale(.70) rotate(-20.1deg) translateX(94px) translateX(76px);
+            transform:scale(.70) rotate(-20.1deg) translateX(70px) translateX(76px);
             padding: 0px;
             margin-top: -50px;
             
